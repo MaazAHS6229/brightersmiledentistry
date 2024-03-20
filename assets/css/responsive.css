@@ -76,9 +76,11 @@
   .mean-container .mean-bar {
     background-color: unset;
     border-bottom: none;
+    /* display: flex;
+    align-items: center; */
   }
   .mean-container .mean-nav {
-    margin-top: 55px;
+    margin-top: 90px;
   }
   .others-option-for-responsive .dot-menu {
     top: -35px;
