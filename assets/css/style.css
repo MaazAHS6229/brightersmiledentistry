@@ -1374,6 +1374,27 @@ Services Area CSS
   border-radius: 0 0 10px 10px;
   transition: 0.6s;
 }
+.single-services .services-content .services-list-item {
+  background-color: #d1d1ee;
+  padding: 10px 10px 10px 10px;
+  position: relative;
+  margin-top: 25px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+/* .single-services .services-content .services-list-item .icon-wrap{
+  background-color: #06a3da;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.single-services .services-content .services-list-item .icon-wrap i{
+  width: 10px;
+} */
+
 .single-services .services-content h3 {
   font-size: 25px;
   margin-bottom: 12px;
