@@ -1295,6 +1295,10 @@ Features Area CSS
   margin-bottom: 30px;
   text-align: center;
   transition: 0.6s;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .single-features-box .icon {
   margin-bottom: 20px;
