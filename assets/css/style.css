@@ -152,7 +152,7 @@ Default btn CSS
   font-size: 15px;
   font-weight: 500;
   transition: 0.6s;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .default-btn:hover {
   background-color: #124390;
@@ -167,7 +167,7 @@ Default btn CSS
   font-size: 15px;
   font-weight: 500;
   transition: 0.6s;
-  border-radius: 5px;
+  border-radius: 20px;
   border: 3px solid #124390;
 }
 .default-btn-outline:hover {
@@ -743,7 +743,7 @@ Navbar Area CSS
   font-size: 15px;
   font-weight: 500;
   transition: 0.6s;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn:hover {
   background-color: #124390;
@@ -1375,13 +1375,26 @@ Services Area CSS
   transition: 0.6s;
 }
 .single-services .services-content .services-list-item {
-  background-color: #d1d1ee;
+  background-color: #a6d1ff;
   padding: 10px 10px 10px 10px;
   position: relative;
   margin-top: 25px;
   border-radius: 25px;
   display: flex;
   align-items: center;
+}
+.single-services .services-content button{
+  border: none;
+  border-radius: 20px;
+}
+.video-wrap {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.video-wrap video{
+    width: 100%;
+    height: auto;
 }
 
 /* .single-services .services-content .services-list-item .icon-wrap{
@@ -1419,6 +1432,9 @@ Services Area CSS
 }
 .single-services:hover .services-content {
   background-color: #06a3da;
+}
+.single-services:hover .services-content button{
+  background-color: #124390;
 }
 .single-services:hover .services-content h3 a {
   color: #ffffff;
@@ -2508,12 +2524,21 @@ Page Banner CSS
 .page-banner-area {
   padding-top: 150px;
   padding-bottom: 150px;
-  /* background-color: #124390; */
-  background-image: url('../images/banners/breadcrumb_banner.jpg');
-  background-position: top;
+  position: relative;
+}
+
+.services-banner{
+  background-image: url('../images/banners/services_banner.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  position: relative;
+}
+
+.insurance-financing-banner{
+  background-image: url('../images/banners/insurance_financing_banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .page-banner-area::before {
@@ -6518,7 +6543,7 @@ Eye Care Banner Area CSS
 }
 
 .eye-care-banner-content {
-  background: rgba(0, 35, 69, 0.9);
+  background: #1dbfcc;
   padding: 50px;
   position: relative;
   margin-right: -145px;
@@ -6590,7 +6615,7 @@ Eye Care Banner Area CSS
 }
 .eye-care-slider.owl-theme .owl-nav [class*=owl-] {
   color: #ffffff;
-  background-color: rgba(0, 35, 69, 0.9);
+  background-color: #1dbfcc;
   width: 60px;
   height: 60px;
   text-align: center;
