@@ -660,6 +660,7 @@ Default CSS
 .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #0CB8B6 !important;
 }
+
 .theme-dark .covid-banner-area {
   background-color: #0e0e0e;
 }
@@ -875,6 +876,12 @@ Default CSS
 }
 .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-brand {
   color: #13A8B4;
+}
+.theme-dark .light-logo {
+  display: none;
+}
+.theme-dark .dark-logo {
+  display: block;
 }
 .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
   color: #ffffff !important;
