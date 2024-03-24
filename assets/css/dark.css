@@ -203,6 +203,9 @@ Default CSS
 .theme-dark .grin-care-navbar .main-navbar .others-options .option-item .cart-btn i {
   color: #ffffff;
 }
+.theme-dark .grin-care-navbar .main-navbar .others-options .option-item .navbar-phone{
+  color: #ffffff;
+}
 .theme-dark .main-slides-content h1 {
   color: #000000 !important;
 }
@@ -231,7 +234,7 @@ Default CSS
   background-color: #272727;
 }
 .theme-dark .single-features-box {
-  background-color: #0e0e0e;
+  background-color: #ffffff;
 }
 .theme-dark .single-dental-tourism-features .content p {
   color: #ffffff;
@@ -250,6 +253,13 @@ Default CSS
   background-color: #d8d3d3;
   color: black;
 }
+
+.theme-dark .single-services .services-content .services-list-item{
+  background-color: #d8d3d3;
+  color: black;
+}
+
+
 
 
 
@@ -336,6 +346,12 @@ Default CSS
 .theme-dark .eye-care-about-content .list li {
   color: #ffffff;
 }
+.theme-dark .eye-care-about-image .about-light-img {
+  display: none;
+}
+.theme-dark .eye-care-about-image .about-dark-img {
+  display: block;
+}
 .theme-dark .pricing-area {
   background-color: #0e0e0e;
 }
@@ -343,7 +359,7 @@ Default CSS
   background-color: #000000;
 }
 .theme-dark .fun-facts-area {
-  background-color: #0e0e0e;
+  background-color: #1DBFCC;
 }
 .theme-dark .core-features-area {
   background-color: #272626;
@@ -523,6 +539,12 @@ Default CSS
 .theme-dark .newsletter-inner-box {
   background-color: #2d2d2d;
 }
+.theme-dark .newsletter-inner-box .prefooter-btn a {
+  background-color: #1DBFCC;
+  color: white;
+
+}
+
 .theme-dark .footer-area {
   background-color: #1c1d1d;
 }
@@ -555,8 +577,9 @@ Default CSS
 }
 .theme-dark .eye-care-footer-area {
   background: linear-gradient(180deg, #262626 0%, #2e2e2e 100%);
-  padding-top: 180px;
+  padding-top: 120px;
 }
+
 .theme-dark .eye-care-footer-widget .info-list li {
   color: #ffffff;
 }
@@ -572,6 +595,17 @@ Default CSS
 .theme-dark .eye-care-footer-widget .hours-list li span {
   color: #ffffff;
 }
+.theme-dark .eye-care-footer-widget .share-link li span {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .share-link li a i {
+  color: #ffffff;
+  border: 2px solid #ffffff
+}
+.theme-dark .eye-care-copyright-area .copyright-area-content p{
+  color: white;
+}
+
 .theme-dark .login-form {
   background-color: #0e0e0e;
 }
@@ -660,6 +694,7 @@ Default CSS
 .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #0CB8B6 !important;
 }
+
 
 .theme-dark .covid-banner-area {
   background-color: #0e0e0e;
@@ -1118,7 +1153,7 @@ Default CSS
 }
 @media only screen and (max-width: 991px) {
   .theme-dark .navbar-area {
-    background-color: #292828;
+    background-color: #000000;
   }
   .theme-dark .main-responsive-nav .mean-container a.meanmenu-reveal span {
     background: #ffffff;
@@ -1139,3 +1174,8 @@ Default CSS
     background-color: #292828;
   }
 }/*# sourceMappingURL=dark.css.map */
+
+/* Mz styles */
+.theme-dark .main-responsive-nav .mean-container a.meanmenu-reveal {
+color: white;
+}

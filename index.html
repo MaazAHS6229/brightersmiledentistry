@@ -50,57 +50,6 @@
         
         <!-- Start Header Area -->
         <header class="header-area grin-care-header">
-            <!-- Start Top Area -->
-            <div class="top-area">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8 col-md-12">
-                            <ul class="top-information-wrap">
-                                <li>
-                                    <i class='bx bxs-phone'></i>
-                                    <a href="tel:+18476003995">847-600-3995</a>
-                                </li>
-
-                                <li>
-                                    <i class='bx bxs-map'></i>
-                                    4836 Main Street, Suite 001, Skokie, Illinois 60077
-                                </li>
-
-                                <li>
-                                    <i class='bx bx-envelope-open'></i>
-                                    <a href="mailto:info@brightersmiledentistry.com">info@brightersmiledentistry.com</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-4 col-md-12">
-                            <ul class="top-optional-wrap">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i class='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/?lang=en" target="_blank">
-                                        <i class='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i class='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i class='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Top Area -->
 
             <!-- Start Navbar Area --> 
             <div class="navbar-area grin-care-navbar">
@@ -126,12 +75,12 @@
                             </a>
 
                             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                                <ul class="navbar-nav m-auto">
-                                    <li class="nav-item">
+                                <ul class="navbar-nav ms-auto">
+                                    <!-- <li class="nav-item">
                                         <a href="index.html" class="nav-link active">
                                             Home 
                                         </a>
-                                    </li>
+                                    </li> -->
 
                                     <li class="nav-item">
                                         <a href="about-us.html" class="nav-link">About</a>
@@ -149,13 +98,20 @@
                                         </a>
                                     </li>
 
-        
-                                    <li class="nav-item">
-                                        <a href="contact-us.html" class="nav-link">Contact</a>
+                                    <li class="nav-item d-lg-none d-sm-block">
+                                        <a href="https://app.nexhealth.com/appt/brighter-smile-dentistry" class="nav-link primary-bg text-white">Book Online</a>
                                     </li>
+
+        
+                                    <!-- <li class="nav-item">
+                                        <a href="contact-us.html" class="nav-link">Contact</a>
+                                    </li> -->
                                 </ul>
 
                                 <div class="others-options d-flex align-items-center">
+                                    <div class="option-item">
+                                        <a href="tel:+18476003995" class="navbar-phone">847-600-3995</a>
+                                    </div>
 
                                     <div class="option-item">
                                         <div class="navbar-btn">
@@ -208,10 +164,10 @@
                         <div class="col-lg-7 col-md-12">
                             <div class="eye-care-banner-image">
                                 <div class="video-wrap">
-                                    <video src="assets/videos/hero-video-1.mp4" id="herovideo1" muted loop autoplay></video>
-                                    <!-- <video src="assets/videos/hero-video-2.mp4" id="herovideo2" muted></video> -->
+                                    <video autoplay muted>
+                                        <source src="assets/videos/hero-vieo-1.mp4" type="video/mp4">
+                                    </video>
                                 </div>
-                                <!-- <img src="assets/images/banners/home_banner_2.jpg" alt="image"> -->
                             </div>
                         </div>
                     </div>
@@ -228,7 +184,11 @@
     
                         <div class="col-lg-7 col-md-12">
                             <div class="eye-care-banner-image">
-                                <img src="assets/images/banners/home_banner_2.jpg" alt="image">
+                                <div class="video-wrap">
+                                    <video autoplay muted>
+                                        <source src="assets/videos/hero-video-2.mp4" type="video/mp4">
+                                    </video>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -291,7 +251,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="eye-care-about-image">
-                            <img src="assets/images/about_img.png" alt="image">
+                            <img src="assets/images/about_img.png" class="about-light-img" alt="image">
+                            <img src="assets/images/about_img_dark.png" class="about-dark-img" alt="image">
                         </div>
                     </div>
 
@@ -396,7 +357,7 @@
         <!-- Start Eye Care Solutions Area -->
         <div class="eye-care-solutions-area mb-5">
             <div class="container">
-                <div class="section-title m-0">
+                <div class="section-title mt-0 mb-3">
                     <h2>You Deserve the Best Dental Care</h2>
                 </div>
 
@@ -423,7 +384,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="eye-care-solutions-image">
-                            <img src="assets/images/home2.jpg" alt="image">
+                            <img src="assets/images/home2.jpg" class="rounded" alt="image">
                         </div>
                     </div>
                 </div>
@@ -448,7 +409,7 @@
                             <div class="eye-care-review-slides owl-carousel owl-theme">
                                 <div class="eye-care-review-card">
                                     <div class="review-info">
-                                        <img src="assets/images/review/najmus_o.jpg" class="rounded-circle" alt="image">
+                                        <img src="assets/images/review/najmus_o.jpg" class="rounded-circle"  alt="image">
                                         <h3>Najmus O.</h3>
                                         <!-- <span>Review By Google</span> -->
                                     </div>
@@ -466,11 +427,11 @@
                                 </div>
                                 <div class="eye-care-review-card">
                                     <div class="review-info">
-                                        <img src="assets/images/review/magali_c.jpeg" class="rounded-circle" alt="image">
+                                        <img src="assets/images/review/magali_c2.jpg" class="rounded-circle" alt="image">
                                         <h3>Magali C.</h3>
                                         <!-- <span>Manager</span> -->
                                     </div>
-                                    <p>“Amazing service and a beautiful high tech and very modern place. Dr. Furrukh was very professional and honest and went over everything in detail regarding my children's procedures. The whole staff was patient and caring to my son and daughter. My children left satisfied and not afraid to return like they have done with other dental offices. I highly recommend it.”</p>
+                                    <p>“Amazing service and a beautiful high tech and very modern place. Dr. Furrukh was very professional and honest and went over everything in detail regarding my children's procedures. The whole staff was patient and caring to my son and daughter.”</p>
                                     <ul class="rating">
                                         <li><i class='bx bxs-star'></i></li>
                                         <li><i class='bx bxs-star'></i></li>
@@ -484,7 +445,7 @@
                                 </div>
                                 <div class="eye-care-review-card">
                                     <div class="review-info">
-                                        <img src="assets/images/review/lina_t.jpeg class="rounded-circle" alt="image">
+                                        <img src="assets/images/review/lina_t.jpeg" class="rounded-circle" alt="image">
                                         <h3>Lina T.</h3>
                                         <!-- <span>Manager</span> -->
                                     </div>
@@ -535,9 +496,9 @@
 
         <!-- Start Eye Care Footer Area -->
         <div class="eye-care-footer-area">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-sm-6">
+            <div class="container-fluid">
+                <div class="row px-5">
+                    <div class="col-lg-9 col-sm-12">
                         <div class="eye-care-footer-widget">
                             <h2>
                                 <a href="index.html">
@@ -545,79 +506,37 @@
                                     <img src="assets/images/logodark.png" class="img-fluid dark-logo" style="margin-left:-20px;" alt="">
                                 </a>
                             </h2>
-                            <ul class="info-list">
-                                <li><span>Location: </span>4836 Main Street, Suite 001, Skokie, Illinois 60077</li>
-                                <li><span>Phone: </span> <a href="tel:+18476003995">847-600-3995</a></li>
-                                <li><span>Email: </span> <a href="mailto:info@brightersmiledentistry.com">info@brightersmiledentistry.com</a></li>
+                            <ul class="info-list d-flex">
+                                <li class="mr-3"><span>Location: </span><a href="https://maps.app.goo.gl/yT8uSioahHPisZun9">4836 Main Street, Suite 001, Skokie, Illinois 60077</a></li>
+                                <li class="mr-3"><span>Phone: </span> <a href="tel:+18476003995">847-600-3995</a></li>
+                                <li class="mr-3"><span>Email: </span> <a href="mailto:info@brightersmiledentistry.com">info@brightersmiledentistry.com</a></li>
                             </ul>
                             <ul class="share-link">
                                 <li>
                                     <span>Get Social:</span>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61557639181095" target="_blank"><i class='bx bxl-facebook'></i></a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3 col-sm-6">
-                        <div class="eye-care-footer-widget">
-                            <h3>Useful Links</h3>
-
-                            <ul class="quick-links">
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="about-us.html">About Us</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="services.html">Our Services</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a target="_blank" href="https://app.nexhealth.com/appt/brighter-smile-dentistry">Appointment</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="privacy-policy.html">Privacy Policy</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="contact-us.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="eye-care-footer-widget">
-                            <h3>Our Services</h3>
-
-                            <ul class="quick-links">
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Skin Care</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Needle Mesotherapy</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Laser Treatments</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Skin Resurfacing</a></li>
-                                <li><i class='bx bxs-chevrons-right'></i> <a href="services-details.html">Plastic Surgery</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-3 col-sm-12">
                         <div class="eye-care-footer-widget">
                             <h3>Hours</h3>
                             
                             <ul class="hours-list">
                                 <li class="d-flex justify-content-between align-items-center">
-                                    <span>Monday</span>
-                                    <span>9 AM - 6 PM</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Tuesday</span>
-                                    <span>9 AM - 6 PM</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Wednesday</span>
-                                    <span>9 AM - 6 PM</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Thursday</span>
-                                    <span>9 AM - 6 PM</span>
-                                </li>
-                                <li class="d-flex justify-content-between align-items-center">
-                                    <span>Friday</span>
+                                    <span>Monday - Friday</span>
                                     <span>9 AM - 6 PM</span>
                                 </li>
                                 <li class="d-flex justify-content-between align-items-center">
@@ -637,7 +556,7 @@
                     <div class="container">
                         <div class="copyright-area-content">
                             <p>
-                                © Brighter Smile Dentistry , All Rights Reserved.
+                                © Brighter Smile Dentistry, All Rights Reserved.
                             </p>
                         </div>
                     </div>

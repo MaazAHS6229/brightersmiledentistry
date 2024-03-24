@@ -175,6 +175,25 @@ Default btn CSS
   color: #ffffff;
 }
 
+.primary-bg{
+  background-color: #1DBFCC;
+}
+.primary-color{
+  color: #1DBFCC;
+}
+/* .primary-btn {
+  display: inline-block;
+  background-color: #1DBFCC;
+  color: #ffffff;
+  padding: 18px 35px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.6s;
+} */
+/* .primary-btn:hover {
+  background-color: #124390;
+  color: #ffffff;
+} */
 /*================================================
 Section Title CSS
 =================================================*/
@@ -505,14 +524,15 @@ Navbar Area CSS
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
+  margin-right: 30px;
 }
 .main-navbar .navbar .navbar-nav {
-  margin-right: auto;
+  margin-left: auto;
 }
 .main-navbar .navbar .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .main-navbar .navbar .navbar-nav .nav-item a {
   color: #222222;
@@ -981,7 +1001,7 @@ Search Modal Style CSS
   }
   .main-responsive-nav .main-responsive-menu.mean-container .navbar-nav {
     overflow-y: scroll;
-    height: 300px;
+    height: 225px;
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
   }
   .main-responsive-nav .mean-container a.meanmenu-reveal {
@@ -1395,6 +1415,38 @@ Services Area CSS
   border: none;
   border-radius: 20px;
 }
+
+.single-services .services-content .list{
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.single-services .services-content .list li{
+  list-style-type: none;
+  color: #486683;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 32px;
+}
+
+.single-services .services-content .list li i{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #1DBFCC;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  background-color: #1DBFCC;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+
 .video-wrap {
   max-width: 800px;
   margin: 20px auto;
@@ -1448,6 +1500,9 @@ Services Area CSS
   color: #ffffff;
 }
 .single-services:hover .services-content p {
+  color: #ffffff;
+}
+.single-services:hover .services-content .list li {
   color: #ffffff;
 }
 
@@ -1849,7 +1904,7 @@ About Area CSS
   line-height: 1.4;
 }
 .about-content h3 span {
-  color: #06a3da;
+  color: #1DBFCC;
 }
 .about-content .about-list {
   padding-left: 0;
@@ -2555,7 +2610,7 @@ Page Banner CSS
   background-size:cover;
 }
 
-.page-banner-area::before {
+/* .page-banner-area::before {
   content: "";
   position: absolute;
   top: 0;
@@ -2563,7 +2618,7 @@ Page Banner CSS
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5)
-}
+} */
 
 .page-banner-content {
   position: absolute;
@@ -2622,7 +2677,7 @@ Page Banner CSS
 Fun Facts Area CSS
 =================================================*/
 .fun-facts-area {
-  background-color: #06a3da;
+  background-color: #1DBFCC;
 }
 
 .single-fun-fact {
@@ -4598,7 +4653,17 @@ Navbar Area CSS
   margin-right: 25px;
   position: relative;
 }
-.grin-care-navbar .main-navbar .others-options .option-item::before {
+
+.grin-care-navbar .main-navbar .others-options .option-item .navbar-phone {
+  color:#002345;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.grin-care-navbar .main-navbar .others-options .option-item .navbar-phone:hover {
+  color:#1DBFCC;
+}
+
+/* .grin-care-navbar .main-navbar .others-options .option-item::before {
   content: "";
   position: absolute;
   top: 0;
@@ -4606,7 +4671,7 @@ Navbar Area CSS
   width: 1px;
   height: 35px;
   background-color: #DDDDDD;
-}
+} */
 .grin-care-navbar .main-navbar .others-options .option-item:nth-child(2)::before {
   display: none;
 }
@@ -6551,6 +6616,9 @@ Eye Care Banner Area CSS
   background: linear-gradient(180deg, #EFEFFB 0%, #FAFAFE 100%);
   padding-top: 140px;
 }
+.eye-care-about-image .about-dark-img{
+  display: none;
+}
 .eye-care-banner-area .container-fluid {
   padding-left: 0px;
   padding-right: 0;
@@ -7104,7 +7172,7 @@ Eye Care Testimonials Area CSS
 
 .eye-care-testimonials-image {
   background-image: url(../../assets/images/testimonial_home.jpg);
-  background-position: center center;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -7354,8 +7422,13 @@ Newsletter Area CSS
   margin-bottom: -90px;
   position: relative;
 }
+
 .newsletter-inner-box .newsletter-content {
   max-width: 450px;
+}
+.newsletter-inner-box .prefooter-btn a {
+  background-color: white;
+  color:#1DBFCC;
 }
 .newsletter-inner-box .newsletter-content h3 {
   font-size: 24px;
@@ -7432,7 +7505,7 @@ Eye Care Footer Area CSS
 =================================================*/
 .eye-care-footer-area {
   background: linear-gradient(180deg, #EFEFFB 0%, #FAFAFE 100%);
-  padding-top: 180px;
+  padding-top: 120px;
 }
 
 .eye-care-footer-widget {
@@ -7459,6 +7532,7 @@ Eye Care Footer Area CSS
 .eye-care-footer-widget .info-list li {
   list-style-type: none;
   margin-bottom: 18px;
+  margin-right: 18px;
   color: #486683;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -7553,7 +7627,7 @@ Eye Care Footer Area CSS
 }
 
 .eye-care-copyright-area {
-  margin-top: 75px;
+  margin-top: 30px;
 }
 .eye-care-copyright-area .copyright-area-content {
   text-align: center;
