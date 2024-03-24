@@ -2591,14 +2591,14 @@ Page Banner CSS
 }
 
 .services-banner{
-  background-image: url('../images/banners/services_banner.jpg');
+  background-image: url('../images/banners/services_b.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
 }
 .about-banner{
-  background-image: url('../images/banners/aboutus_banner.jpg');
-  background-position: center;
+  background-image: url('../images/banners/about_b.jpg');
+  background-position: top;
   background-repeat: no-repeat;
   background-size:cover;
 }
