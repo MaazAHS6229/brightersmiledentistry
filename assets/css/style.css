@@ -2591,13 +2591,13 @@ Page Banner CSS
 }
 
 .services-banner{
-  background-image: url('../images/banners/services_b.jpg');
+  background-image: url('../images/banners/services_banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
 }
 .about-banner{
-  background-image: url('../images/banners/about_b.jpg');
+  background-image: url('../images/banners/about_banner.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size:cover;
@@ -6668,10 +6668,13 @@ Eye Care Banner Area CSS
   margin-right: 10px;
 }
 .eye-care-banner-content .banner-btn-with-info li.banner-btn .default-btn {
-  background-color: #1DBFCC;
+  background-color: white;
+  color: #1DBFCC;
 }
 .eye-care-banner-content .banner-btn-with-info li.banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #1DBFCC;
+  color:white;
+  border:3px solid white;
 }
 .eye-care-banner-content .banner-btn-with-info li.title {
   margin-left: 30px;
@@ -7619,8 +7622,8 @@ Eye Care Footer Area CSS
   list-style-type: none;
   margin-bottom: 15px;
 }
-.eye-care-footer-widget .hours-list li:last-child {
-  margin-bottom: 0;
+.eye-care-footer-widget .hours-list li:first-child {
+  color: #1DBFCC;
 }
 .eye-care-footer-widget .hours-list li span {
   color: #486683;
